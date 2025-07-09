@@ -1,0 +1,22 @@
+{
+    "idf.openOcdConfigs": [
+        "board/esp32s3-builtin.cfg"
+    ],
+    "idf.customExtraVars": {
+        "IDF_TARGET": "esp32s3"
+    },
+    "idf.port": "/dev/tty.usbmodem21101",
+    "idf.flashType": "UART",
+    "idf.espIdfPath": "/Volumes/SSD990/esp-tool/v5.3.2/esp-idf",
+    "idf.toolsPath": "/Users/yaosiyuan/.espressif",
+    "idf.pythonInstallPath": "/opt/homebrew/bin/python3",
+    "files.associations": {
+        "stdlib.h": "c",
+        "lvgl_driver.h": "c",
+        "typeinfo": "c",
+        "lvgl.h": "c",
+        "lv_conf.h": "c",
+        "pwr_key.h": "c",
+        "bat_driver.h": "c"
+    }
+}
